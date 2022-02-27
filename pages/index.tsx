@@ -5,6 +5,7 @@ import '../i18n';
 import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  // @ts-ignore
   const { t } = useTranslation();
   return (
     <div className={styles.container}>
@@ -16,7 +17,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          {t('ElectricityQ')}
         </h1>
 
         <p className={styles.description}>
