@@ -1,0 +1,163 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  color: inherit;
+  border: 1px solid #6231EC;
+  border-radius: 74px;
+  height: 351px;
+  width: 500px;
+}
+
+@keyframes aminationQ {
+  0% {
+    opacity: 0;
+  }
+  8% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.question {
+  margin: 10px 0 18px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #818181;
+  width: 330px;
+  animation-name: aminationQ;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+}
+
+.answer {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: center;
+  padding: 0px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6231EC;
+  border-radius: 69px;
+  height: 69px;
+  width: 438px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@keyframes amination0 {
+  0% {
+    top: 400px;
+    opacity: 1;
+  }
+  15% {
+    top: 0px;
+    opacity: 1;
+  }
+  90% {
+    top: 0px;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    opacity: 0;
+  }
+}
+.answer0 {
+  position: relative;
+  animation-name: amination0;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes amination1 {
+  0% {
+    top: 400px;
+    opacity: 1;
+  }
+  22% {
+    top: 15px;
+    opacity: 1;
+  }
+  90% {
+    top: 15px;
+    opacity: 1;
+  }
+  100% {
+    top: 15px;
+    opacity: 0;
+  }
+}
+.answer1 {
+  position: relative;
+  animation-name: amination1;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes amination2 {
+  0% {
+    top: 400px;
+    opacity: 1;
+  }
+  28% {
+    top: 30px;
+    opacity: 1;
+  }
+  90% {
+    top: 30px;
+    opacity: 1;
+  }
+  100% {
+    top: 30px;
+    opacity: 0;
+  }
+}
+.answer2 {
+  position: relative;
+  animation-name: amination2;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+}
+
+.circle {
+  margin-right: 25px;
+  border-radius: 100%;
+  border: 3px solid #6231EC;
+  height: 28px;
+  width: 28px;
+  min-width: 28px;
+}
+
+@keyframes aminationCircle {
+  0% {
+    background-color: #FFFFFF;
+  }
+  60% {
+    background-color: #FFFFFF;
+  }
+  61% {
+    background-color: #6231EC;
+  }
+  90% {
+    background-color: #6231EC;
+  }
+  100% {
+    background-color: #6231EC;
+  }
+}
+.correct {
+  animation-name: aminationCircle;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+}
+
+/*# sourceMappingURL=MultipleChoice.module.css.map */
