@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Index.module.css'
+import '../i18n';
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const { t } = useTranslation();
   return (
     <div className={styles.container}>
       <Head>
@@ -17,7 +20,6 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
