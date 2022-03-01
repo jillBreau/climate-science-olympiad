@@ -2,7 +2,7 @@
 import styles from '../styles/questions/MultipleChoice.module.css'
 import '../i18n';
 import { useTranslation } from "react-i18next";
-import { MultipleChoiceQuestionType } from '../lib/multipleChoiceQuestions';
+import { MultipleChoiceQuestionType } from '../lib/animation/multipleChoiceQuestions';
 
 export default function MultipleChoice({ multipleChoiceQuestion }: { multipleChoiceQuestion: MultipleChoiceQuestionType }) {
   // @ts-ignore
